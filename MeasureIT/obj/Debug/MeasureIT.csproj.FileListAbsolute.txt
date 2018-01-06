@@ -1,0 +1,33 @@
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\bin\Debug\MeasureIT.exe.config
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\bin\Debug\MeasureIT.exe
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\bin\Debug\MeasureIT.pdb
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csprojResolveAssemblyReference.cache
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MainWindow.g.cs
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\App.g.cs
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT_MarkupCompile.cache
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT_MarkupCompile.lref
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MainWindow.baml
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.g.resources
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.Properties.Resources.resources
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.GenerateResource.Cache
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.exe
+c:\users\marek\documents\visual studio 2017\Projects\TestSpeaking\MeasureIT\MeasureIT\obj\Debug\MeasureIT.pdb
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\bin\Debug\MeasureIT.exe.config
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\bin\Debug\MeasureIT.exe
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\bin\Debug\MeasureIT.pdb
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MainWindow.g.cs
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\App.g.cs
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT_MarkupCompile.cache
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT_MarkupCompile.lref
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MainWindow.baml
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.g.resources
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.Properties.Resources.resources
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.GenerateResource.Cache
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.CoreCompileInputs.cache
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.exe
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.pdb
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\Interop.EnvDTE.dll
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\Interop.VSLangProj.dll
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\Interop.VSLangProj2.dll
+C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.ResolveComReference.cache
