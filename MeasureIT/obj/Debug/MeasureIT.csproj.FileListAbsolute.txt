@@ -23,7 +23,6 @@ C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MainWindow.baml
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.g.resources
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.Properties.Resources.resources
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.GenerateResource.Cache
-C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csproj.CoreCompileInputs.cache
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.exe
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.pdb
 C:\Users\Marek\Desktop\MeasureIT\MeasureIT\obj\Debug\MeasureIT.csprojResolveAssemblyReference.cache

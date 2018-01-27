@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using System.Drawing;
 using System.IO;
 using System.Windows.Markup;
+using System.Windows.Threading;
 
 namespace MeasureIT
 {
@@ -37,8 +38,10 @@ namespace MeasureIT
         public static ObservedProgram CurrentProgram;
         public static ObservedProgram PreviousProgram;
         public static bool FirstTime=true;
-        public static ImageSource LiveIcon;
-        public static string LiveText;
+
+        DispatcherTimer dT;
+
+
 
         public static ObservedProgram GetObservedProgramFromProcess(Process pr)
         {
@@ -58,28 +61,18 @@ namespace MeasureIT
 
             ObservedProgram potential = new ObservedProgram(prName, imgSr);
 
-            bool found = false;
+           
 
             foreach(ObservedProgram cos in ProgramsDataGrid.Items)
             {
                 if (potential == cos) return cos;
             }
 
-            if (found)
-            {
-                int index = ProgramsDataGrid.Items.IndexOf(prName);
-               
-                return (ObservedProgram)ProgramsDataGrid.Items[index];
 
-                
-
-            }
-            else
-            {
                 ProgramsDataGrid.Items.Add(potential);
 
                 return potential;
-            }
+            
 
           }
 
@@ -95,6 +88,9 @@ namespace MeasureIT
                 StartTime = DateTime.Now;
                 CurrentProgram = GetObservedProgramFromProcess(pr);
                 FirstTime = false;
+                dT = new DispatcherTimer(new TimeSpan(0, 0, 0, 0, 50), DispatcherPriority.Background,
+               t_Tick, Dispatcher.CurrentDispatcher);
+                dT.IsEnabled = true;
             }
             else
             {
@@ -106,35 +102,8 @@ namespace MeasureIT
                 CurrentProgram = CurrentProgram = GetObservedProgramFromProcess(pr);
             }
 
-            LiveIcon = CurrentProgram.IconSource;
-            LiveText = CurrentProgram.Name;
-
-            
-            BindingExpression binding = ((TextBlock)FindName("liveText")).GetBindingExpression(TextBlock.TextProperty);
-            binding.UpdateSource();
-            binding = ((System.Windows.Controls.Image)FindName("liveImage")).GetBindingExpression(System.Windows.Controls.Image.SourceProperty);
-            binding.UpdateSource();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            liveIcon.Source = CurrentProgram.IconSource;
+            liveName.Text = CurrentProgram.Name;
 
         }
 
@@ -150,6 +119,11 @@ namespace MeasureIT
             ChangingProcess.EVENT_SYSTEM_FOREGROUND, (IntPtr)0,
             del, 0, 0,
             ChangingProcess.WINEVENT_OUTOFCONTEXT | ChangingProcess.WINEVENT_SKIPOWNPROCESS);
+        }
+
+        private void t_Tick(object sender, EventArgs e)
+        {
+            timerDisplay.Text = (DateTime.Now - StartTime).ToString(@"dd\.hh\:mm\:ss");
         }
 
     }

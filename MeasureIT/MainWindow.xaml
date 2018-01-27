@@ -5,44 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MeasureIT"
         mc:Ignorable="d"
-        Title="MainWindow" Height="475.126" Width="758.137">
+        Title="MeasureIT" Height="475.126" Width="758.137">
     <StackPanel Name="LayoutRoot">
 
-        <StackPanel x:Name="liveProgram" Height="65" Margin="0,17,656,5" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5" Width="60">
-            
-            <Image x:Name="liveImage" Source="{Binding LiveSourceIcon}" Width="40" Height="40" />
-            <TextBlock x:Name="liveText" Text="{Binding LiveText}" FontSize="50" />
-
+        <StackPanel x:Name="liveTimer" Height="100" Margin="10,10,10,0" Orientation="Horizontal">
+            <Image x:Name="liveIcon" Source="{Binding LiveIcon}" Height="100" Width="100" HorizontalAlignment="Left" Margin="50, 0, 0, 0"/>
+            <TextBlock x:Name="liveName" Height="50" Width="200" Margin="5, 0,0,0" FontSize="35"/>
+            <TextBlock x:Name="timerDisplay" Height="50" Width="200" Margin="5, 0,0,0" FontSize="35"/>
         </StackPanel>
-
-        <DataGrid x:Name="DataGridXAML" HorizontalAlignment="Left" Height="280" Margin="10,10,0,0" VerticalAlignment="Top" Width="733">
+        
+        
+        <DataGrid x:Name="DataGridXAML"  Height="290"  Margin="10,10,10,10">
 
             <DataGrid.Resources>
                 <Style TargetType="{x:Type DataGridColumnHeader}">
                     <Setter Property="Background" Value="Beige"/>
                     <Setter Property="FontWeight" Value="Heavy"/>
-
-
-
                 </Style>
             </DataGrid.Resources>
 
             <DataGrid.Columns>
-                <DataGridTemplateColumn Header=" ">
+
+                <DataGridTemplateColumn Header="">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Image Source="{Binding IconSource}" Width="20" Height="20" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
-
                 </DataGridTemplateColumn>
+
                 <DataGridTextColumn Header="Program name" Width="2*" Binding="{Binding Name}"/>
 
                 <DataGridTextColumn Header="Runtime duration" Width="*" Binding="{Binding Duration}"/>
+
             </DataGrid.Columns>
 
         </DataGrid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="622,391,0,0" VerticalAlignment="Top" Width="121" Height="28"/>
+
+
 
 
     </StackPanel>
